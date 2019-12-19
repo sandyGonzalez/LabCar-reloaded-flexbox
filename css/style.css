@@ -53,6 +53,7 @@ header .menu .logo img{
     align-items: center;
 }
 
+
 .hero .content-text-hero{
     background:  #f7b617;
     width: 80%;
@@ -101,6 +102,8 @@ header .menu .logo img{
     padding: 30px;
     border: solid 0.1px #ffff;
     flex-wrap: wrap;
+    width: 100% auto;
+
 
 }
 .phone-section .content-phone-section p,
@@ -120,6 +123,8 @@ header .menu .logo img{
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
+    width: 100% auto;
+
 }
 .drive-section .opacity{
     width: 100%;
@@ -163,6 +168,8 @@ header .menu .logo img{
     flex-wrap: wrap;
     color:#fff;
     padding: 7px;
+    width: 100%  auto;
+
 }
 .tarifas-section h4{
     margin-top: 40px;
