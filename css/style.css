@@ -1,0 +1,276 @@
+*{
+    margin:0;
+    padding: 0;
+
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* ----- HEADER ----- */
+
+header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    align-items: baseline;
+}  
+header .menu figure{ /* Para los 2 figures que hay dentro del header */
+    display: inline-block;
+}
+
+header .menu .menu-logo a{
+    color:#cccc;
+    margin-right: 30px;
+    width: 100px;
+    border: solid 2px #ccc;
+    border-radius: 5px;
+    padding: 6px 12px;
+}
+
+header .menu .logo img{
+    width: 100px;
+    margin-top: 15px;
+    padding: 0%;
+}
+
+/* ----- MAIN ----- */
+
+/* ----- HERO SECTION ----- */
+
+.hero{
+    background: url('../img/taxi.jpg') #000;
+    vertical-align: ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover  ;
+    width: 100%;
+    height: 500px;  
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hero .content-text-hero{
+    background:  #f7b617;
+    width: 80%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.hero .content-text-hero p{
+    display: inline;
+    color:#fff;
+    font-size: 27px;
+}
+.hero .content-text-hero .logo-blanco{
+    display: inline-block;
+}
+.hero .content-text-hero p .logo-blanco img{
+    width: 60px ;
+}
+
+.white-button{
+    background: #fff;
+    border: none;
+    width: auto;
+    padding: 5px;
+    height: 25px;
+    margin: 25px;
+}
+
+/* ----- PHONE SECTION ----- */
+
+.phone-section{
+    background:#f7b617;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 7px;
+   /*  height: -webkit-fill-available; */
+}
+.phone-section .content-phone-section{
+    display:flex;
+    justify-content: center;
+    margin: 30px 15px;
+    padding: 30px;
+    border: solid 0.1px #ffff;
+    flex-wrap: wrap;
+
+}
+.phone-section .content-phone-section p,
+.phone-section p{
+    color:#fff;
+    padding: 5px;
+}
+.phone-section .content-phone-section .phone img{
+    width: 150px;
+}
+
+/* ----- DRIVE SECTION ----- */
+
+.drive-section{
+    background: url('../img/conduce.jpg');
+    
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+.drive-section .opacity{
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.drive-section .drive-section-content{
+    display: flex;
+    flex-direction: column;
+    padding: 90px 20px 130px 20px;
+}
+
+.drive-section .drive-section-content h4{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.drive-section .drive-section-content p{
+    color:#fff;
+    margin:10px 0;
+    
+}
+
+.drive-section .drive-section-content .yellow-button{
+    border:none;
+    background:#f7b617;
+    margin: 5px 0;
+    padding:10px 5px;
+    color:#fff;
+    font-size: 16px;
+    border-radius: 5px;
+    align-self: flex-start;
+}
+
+/* ----- TARIFAS SECTION ----- */
+
+.tarifas-section{
+    background:#f7b617;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color:#fff;
+    padding: 7px;
+}
+.tarifas-section h4{
+    margin-top: 40px;
+}
+
+.tarifas-section .rutas{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tarifas-section .rutas p {
+    display: inline-block;
+    border: solid 1px #fff;
+    border-radius: 5px;
+    width:90%;
+    height: 23px;
+    margin-bottom: 15px;
+    overflow: hidden; /* para ocultar el texto */
+}
+.tarifas-section .rutas figure{
+    width: 10%;
+}
+
+.tarifas-section .rutas button{
+    align-self: center;
+    
+}
+.tarifas-section .map-content{
+    justify-content: center;
+    border: solid 1px #fff;
+}
+
+.tarifas-section .map-content img{
+    align-self: center;
+    width: 98%;
+    
+}
+
+
+/* ----- FOOTER ----- */
+
+footer{
+    background: #2b2b2b;
+    flex-direction: column;
+    color:#fff;
+}
+
+footer .white-logo,
+footer p{
+    padding: 20px;
+}
+
+footer .footer-content{
+    display:flex;
+    flex-direction: row;
+    
+}
+
+footer .footer-content .footer-text{
+    display:flex;
+    flex-direction: column;
+    padding: 25px 15px;
+}
+footer .footer-content .footer-text a{
+    text-decoration: none;
+    color:#fff;
+    padding: 5px 0
+}
+
+footer .footer-content .content-redes-sociales-logos{
+    display:flex;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+}
+
+footer .footer-content .content-redes-sociales-logos.redes-sociales{
+    display:flex;
+    flex-direction: row;
+    padding-top: 5px;
+    background:#ccc;
+    width:40%;
+    height: 15%;
+}
+
+
+footer .footer-content .content-redes-sociales-logos .redes-sociales a{
+    color: #fff;
+    padding: 10px;
+    height: 0;
+
+}
+
+footer .footer-content .content-redes-sociales-logos .logos-stores{
+    padding: 20px 0;
+    width: 90%;
+    justify-content: space-between;
+    
+}
+
+footer .footer-content .content-redes-sociales-logos .logos-stores figure img{
+
+    width: 90%;
+    padding: 5%;
+}
+
+
+
+
